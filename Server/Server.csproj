@@ -57,6 +57,7 @@
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Security" />
     <Reference Include="System.ServiceModel" />
@@ -72,18 +73,8 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>NorthwindModel.edmx</DependentUpon>
     </Compile>
-    <Compile Include="DataArchitecture\POCO\Category.cs" />
-    <Compile Include="DataArchitecture\POCO\Customer.cs" />
-    <Compile Include="DataArchitecture\POCO\CustomerDemographic.cs" />
     <Compile Include="DataArchitecture\POCO\Employee.cs" />
     <Compile Include="DataArchitecture\POCO\NorthwindModel.Context.cs" />
-    <Compile Include="DataArchitecture\POCO\OrderDetail.cs" />
-    <Compile Include="DataArchitecture\POCO\Product.cs" />
-    <Compile Include="DataArchitecture\POCO\ProductOrder.cs" />
-    <Compile Include="DataArchitecture\POCO\Region.cs" />
-    <Compile Include="DataArchitecture\POCO\Shipper.cs" />
-    <Compile Include="DataArchitecture\POCO\Supplier.cs" />
-    <Compile Include="DataArchitecture\POCO\Territory.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\EmployeeService.cs" />
