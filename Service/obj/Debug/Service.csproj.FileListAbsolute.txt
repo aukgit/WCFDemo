@@ -1,0 +1,1 @@
+E:\Working\GitHub\WCFDemo\Service\bin\Debug\Service.exe.config
