@@ -4,8 +4,6 @@ E:\Working\GitHub\WCFDemo\WCFDemo\Client\bin\Debug\Client.pdb
 E:\Working\GitHub\WCFDemo\WCFDemo\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
 E:\Working\GitHub\WCFDemo\WCFDemo\Client\obj\Debug\Client.exe
 E:\Working\GitHub\WCFDemo\WCFDemo\Client\obj\Debug\Client.pdb
-E:\Working\GitHub\WCFDemo\WCFDemo\Client\bin\Debug\AppData\Northwind.mdf
-E:\Working\GitHub\WCFDemo\WCFDemo\Client\bin\Debug\AppData\Northwind_log.ldf
 E:\Working\GitHub\WCFDemo\WCFDemo\Client\bin\Debug\Northwind.mdf
 E:\Working\GitHub\WCFDemo\WCFDemo\Client\bin\Debug\Northwind_log.ldf
 E:\Working\GitHub\WCFDemo\WCFDemo\Client\bin\Debug\Interfaces.dll

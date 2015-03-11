@@ -1,0 +1,6 @@
+E:\Working\GitHub\WCFDemo\WCFMetaDemo\Client\bin\Debug\Client.exe.config
+E:\Working\GitHub\WCFDemo\WCFMetaDemo\Client\bin\Debug\Client.exe
+E:\Working\GitHub\WCFDemo\WCFMetaDemo\Client\bin\Debug\Client.pdb
+E:\Working\GitHub\WCFDemo\WCFMetaDemo\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
+E:\Working\GitHub\WCFDemo\WCFMetaDemo\Client\obj\Debug\Client.exe
+E:\Working\GitHub\WCFDemo\WCFMetaDemo\Client\obj\Debug\Client.pdb

@@ -1,6 +1,4 @@
 E:\Working\GitHub\WCFDemo\Service\bin\Debug\Service.exe.config
-E:\Working\GitHub\WCFDemo\Service\bin\Debug\AppData\Northwind.mdf
-E:\Working\GitHub\WCFDemo\Service\bin\Debug\AppData\Northwind_log.ldf
 E:\Working\GitHub\WCFDemo\Service\bin\Debug\Northwind.mdf
 E:\Working\GitHub\WCFDemo\Service\bin\Debug\Northwind_log.ldf
 E:\Working\GitHub\WCFDemo\Service\bin\Debug\Service.exe

@@ -167,13 +167,6 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="AppData\Northwind.mdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="AppData\Northwind_log.ldf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <DependentUpon>Northwind.mdf</DependentUpon>
-    </Content>
     <Content Include="Northwind.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
