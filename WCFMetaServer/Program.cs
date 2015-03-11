@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace WCFMetaServer {
     class Program {
         static void Main(string[] args) {
-            using (ServiceHost host = new ServiceHost(typeof(Service1))) {
+            using (ServiceHost host = new ServiceHost(typeof(EmployeeService))) {
                 host.Open();
                 Console.WriteLine("Server is running at :");
                 if (host.Description.Endpoints != null) {
@@ -16,10 +16,12 @@ namespace WCFMetaServer {
                     foreach (var endPoint in endPoints) {
                         Console.WriteLine(endPoint.Address);
                     }
+
                 }
                 Console.WriteLine("Press Enter to close.");
                 Console.ReadLine();
             }
+
         }
     }
 }
