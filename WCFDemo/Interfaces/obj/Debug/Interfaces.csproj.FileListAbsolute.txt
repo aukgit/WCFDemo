@@ -1,0 +1,5 @@
+E:\Working\GitHub\WCFDemo\WCFDemo\Interfaces\bin\Debug\Interfaces.dll
+E:\Working\GitHub\WCFDemo\WCFDemo\Interfaces\bin\Debug\Interfaces.pdb
+E:\Working\GitHub\WCFDemo\WCFDemo\Interfaces\obj\Debug\Interfaces.csprojResolveAssemblyReference.cache
+E:\Working\GitHub\WCFDemo\WCFDemo\Interfaces\obj\Debug\Interfaces.dll
+E:\Working\GitHub\WCFDemo\WCFDemo\Interfaces\obj\Debug\Interfaces.pdb

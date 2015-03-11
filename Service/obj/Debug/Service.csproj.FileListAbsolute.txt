@@ -1,1 +1,16 @@
 E:\Working\GitHub\WCFDemo\Service\bin\Debug\Service.exe.config
+E:\Working\GitHub\WCFDemo\Service\bin\Debug\AppData\Northwind.mdf
+E:\Working\GitHub\WCFDemo\Service\bin\Debug\AppData\Northwind_log.ldf
+E:\Working\GitHub\WCFDemo\Service\bin\Debug\Northwind.mdf
+E:\Working\GitHub\WCFDemo\Service\bin\Debug\Northwind_log.ldf
+E:\Working\GitHub\WCFDemo\Service\bin\Debug\Service.exe
+E:\Working\GitHub\WCFDemo\Service\bin\Debug\Service.pdb
+E:\Working\GitHub\WCFDemo\Service\bin\Debug\EntityFramework.dll
+E:\Working\GitHub\WCFDemo\Service\bin\Debug\EntityFramework.SqlServer.dll
+E:\Working\GitHub\WCFDemo\Service\bin\Debug\EntityFramework.xml
+E:\Working\GitHub\WCFDemo\Service\bin\Debug\EntityFramework.SqlServer.xml
+E:\Working\GitHub\WCFDemo\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
+E:\Working\GitHub\WCFDemo\Service\obj\Debug\Service.exe
+E:\Working\GitHub\WCFDemo\Service\obj\Debug\Service.pdb
+E:\Working\GitHub\WCFDemo\Service\bin\Debug\Interfaces.dll
+E:\Working\GitHub\WCFDemo\Service\bin\Debug\Interfaces.pdb
