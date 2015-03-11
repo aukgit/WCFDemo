@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Client.EmployeeServiceClient {
+namespace Client.EmployeeService {
     using System.Runtime.Serialization;
     using System;
     
@@ -35,10 +35,10 @@ namespace Client.EmployeeServiceClient {
         private string CountryField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private System.Collections.Generic.List<Client.EmployeeServiceClient.Employee> Employee1Field;
+        private System.Collections.Generic.List<Client.EmployeeService.Employee> Employee1Field;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private Client.EmployeeServiceClient.Employee Employee2Field;
+        private Client.EmployeeService.Employee Employee2Field;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
         private int EmployeeIDField;
@@ -71,7 +71,7 @@ namespace Client.EmployeeServiceClient {
         private string PostalCodeField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private System.Collections.Generic.List<Client.EmployeeServiceClient.ProductOrder> ProductOrdersField;
+        private System.Collections.Generic.List<Client.EmployeeService.ProductOrder> ProductOrdersField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
         private string RegionField;
@@ -80,7 +80,7 @@ namespace Client.EmployeeServiceClient {
         private System.Nullable<int> ReportsToField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private System.Collections.Generic.List<Client.EmployeeServiceClient.Territory> TerritoriesField;
+        private System.Collections.Generic.List<Client.EmployeeService.Territory> TerritoriesField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
         private string TitleField;
@@ -151,7 +151,7 @@ namespace Client.EmployeeServiceClient {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Collections.Generic.List<Client.EmployeeServiceClient.Employee> Employee1 {
+        public System.Collections.Generic.List<Client.EmployeeService.Employee> Employee1 {
             get {
                 return this.Employee1Field;
             }
@@ -164,7 +164,7 @@ namespace Client.EmployeeServiceClient {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public Client.EmployeeServiceClient.Employee Employee2 {
+        public Client.EmployeeService.Employee Employee2 {
             get {
                 return this.Employee2Field;
             }
@@ -307,7 +307,7 @@ namespace Client.EmployeeServiceClient {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Collections.Generic.List<Client.EmployeeServiceClient.ProductOrder> ProductOrders {
+        public System.Collections.Generic.List<Client.EmployeeService.ProductOrder> ProductOrders {
             get {
                 return this.ProductOrdersField;
             }
@@ -346,7 +346,7 @@ namespace Client.EmployeeServiceClient {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Collections.Generic.List<Client.EmployeeServiceClient.Territory> Territories {
+        public System.Collections.Generic.List<Client.EmployeeService.Territory> Territories {
             get {
                 return this.TerritoriesField;
             }
@@ -404,13 +404,13 @@ namespace Client.EmployeeServiceClient {
         private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private Client.EmployeeServiceClient.Customer CustomerField;
+        private Client.EmployeeService.Customer CustomerField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
         private string CustomerIDField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private Client.EmployeeServiceClient.Employee EmployeeField;
+        private Client.EmployeeService.Employee EmployeeField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
         private System.Nullable<int> EmployeeIDField;
@@ -422,7 +422,7 @@ namespace Client.EmployeeServiceClient {
         private System.Nullable<System.DateTime> OrderDateField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private System.Collections.Generic.List<Client.EmployeeServiceClient.OrderDetail> OrderDetailsField;
+        private System.Collections.Generic.List<Client.EmployeeService.OrderDetail> OrderDetailsField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
         private int ProductOrderIDField;
@@ -455,7 +455,7 @@ namespace Client.EmployeeServiceClient {
         private System.Nullable<System.DateTime> ShippedDateField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private Client.EmployeeServiceClient.Shipper ShipperField;
+        private Client.EmployeeService.Shipper ShipperField;
         
         [global::System.ComponentModel.BrowsableAttribute(false)]
         public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
@@ -468,7 +468,7 @@ namespace Client.EmployeeServiceClient {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public Client.EmployeeServiceClient.Customer Customer {
+        public Client.EmployeeService.Customer Customer {
             get {
                 return this.CustomerField;
             }
@@ -494,7 +494,7 @@ namespace Client.EmployeeServiceClient {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public Client.EmployeeServiceClient.Employee Employee {
+        public Client.EmployeeService.Employee Employee {
             get {
                 return this.EmployeeField;
             }
@@ -546,7 +546,7 @@ namespace Client.EmployeeServiceClient {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Collections.Generic.List<Client.EmployeeServiceClient.OrderDetail> OrderDetails {
+        public System.Collections.Generic.List<Client.EmployeeService.OrderDetail> OrderDetails {
             get {
                 return this.OrderDetailsField;
             }
@@ -689,7 +689,7 @@ namespace Client.EmployeeServiceClient {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public Client.EmployeeServiceClient.Shipper Shipper {
+        public Client.EmployeeService.Shipper Shipper {
             get {
                 return this.ShipperField;
             }
@@ -721,10 +721,10 @@ namespace Client.EmployeeServiceClient {
         private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private System.Collections.Generic.List<Client.EmployeeServiceClient.Employee> EmployeesField;
+        private System.Collections.Generic.List<Client.EmployeeService.Employee> EmployeesField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private Client.EmployeeServiceClient.Region RegionField;
+        private Client.EmployeeService.Region RegionField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
         private int RegionIDField;
@@ -746,7 +746,7 @@ namespace Client.EmployeeServiceClient {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Collections.Generic.List<Client.EmployeeServiceClient.Employee> Employees {
+        public System.Collections.Generic.List<Client.EmployeeService.Employee> Employees {
             get {
                 return this.EmployeesField;
             }
@@ -759,7 +759,7 @@ namespace Client.EmployeeServiceClient {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public Client.EmployeeServiceClient.Region Region {
+        public Client.EmployeeService.Region Region {
             get {
                 return this.RegionField;
             }
@@ -848,7 +848,7 @@ namespace Client.EmployeeServiceClient {
         private string CountryField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private System.Collections.Generic.List<Client.EmployeeServiceClient.CustomerDemographic> CustomerDemographicsField;
+        private System.Collections.Generic.List<Client.EmployeeService.CustomerDemographic> CustomerDemographicsField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
         private string CustomerIDField;
@@ -863,7 +863,7 @@ namespace Client.EmployeeServiceClient {
         private string PostalCodeField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private System.Collections.Generic.List<Client.EmployeeServiceClient.ProductOrder> ProductOrdersField;
+        private System.Collections.Generic.List<Client.EmployeeService.ProductOrder> ProductOrdersField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
         private string RegionField;
@@ -957,7 +957,7 @@ namespace Client.EmployeeServiceClient {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Collections.Generic.List<Client.EmployeeServiceClient.CustomerDemographic> CustomerDemographics {
+        public System.Collections.Generic.List<Client.EmployeeService.CustomerDemographic> CustomerDemographics {
             get {
                 return this.CustomerDemographicsField;
             }
@@ -1022,7 +1022,7 @@ namespace Client.EmployeeServiceClient {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Collections.Generic.List<Client.EmployeeServiceClient.ProductOrder> ProductOrders {
+        public System.Collections.Generic.List<Client.EmployeeService.ProductOrder> ProductOrders {
             get {
                 return this.ProductOrdersField;
             }
@@ -1073,7 +1073,7 @@ namespace Client.EmployeeServiceClient {
         private string PhoneField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private System.Collections.Generic.List<Client.EmployeeServiceClient.ProductOrder> ProductOrdersField;
+        private System.Collections.Generic.List<Client.EmployeeService.ProductOrder> ProductOrdersField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
         private int ShipperIDField;
@@ -1115,7 +1115,7 @@ namespace Client.EmployeeServiceClient {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Collections.Generic.List<Client.EmployeeServiceClient.ProductOrder> ProductOrders {
+        public System.Collections.Generic.List<Client.EmployeeService.ProductOrder> ProductOrders {
             get {
                 return this.ProductOrdersField;
             }
@@ -1166,13 +1166,13 @@ namespace Client.EmployeeServiceClient {
         private int OrderIDField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private Client.EmployeeServiceClient.Product ProductField;
+        private Client.EmployeeService.Product ProductField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
         private int ProductIDField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private Client.EmployeeServiceClient.ProductOrder ProductOrderField;
+        private Client.EmployeeService.ProductOrder ProductOrderField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
         private short QuantityField;
@@ -1217,7 +1217,7 @@ namespace Client.EmployeeServiceClient {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public Client.EmployeeServiceClient.Product Product {
+        public Client.EmployeeService.Product Product {
             get {
                 return this.ProductField;
             }
@@ -1243,7 +1243,7 @@ namespace Client.EmployeeServiceClient {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public Client.EmployeeServiceClient.ProductOrder ProductOrder {
+        public Client.EmployeeService.ProductOrder ProductOrder {
             get {
                 return this.ProductOrderField;
             }
@@ -1307,7 +1307,7 @@ namespace Client.EmployeeServiceClient {
         private string CustomerTypeIDField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private System.Collections.Generic.List<Client.EmployeeServiceClient.Customer> CustomersField;
+        private System.Collections.Generic.List<Client.EmployeeService.Customer> CustomersField;
         
         [global::System.ComponentModel.BrowsableAttribute(false)]
         public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
@@ -1346,7 +1346,7 @@ namespace Client.EmployeeServiceClient {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Collections.Generic.List<Client.EmployeeServiceClient.Customer> Customers {
+        public System.Collections.Generic.List<Client.EmployeeService.Customer> Customers {
             get {
                 return this.CustomersField;
             }
@@ -1378,7 +1378,7 @@ namespace Client.EmployeeServiceClient {
         private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private Client.EmployeeServiceClient.Category CategoryField;
+        private Client.EmployeeService.Category CategoryField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
         private System.Nullable<int> CategoryIDField;
@@ -1387,7 +1387,7 @@ namespace Client.EmployeeServiceClient {
         private bool DiscontinuedField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private System.Collections.Generic.List<Client.EmployeeServiceClient.OrderDetail> OrderDetailsField;
+        private System.Collections.Generic.List<Client.EmployeeService.OrderDetail> OrderDetailsField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
         private int ProductIDField;
@@ -1402,7 +1402,7 @@ namespace Client.EmployeeServiceClient {
         private System.Nullable<short> ReorderLevelField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private Client.EmployeeServiceClient.Supplier SupplierField;
+        private Client.EmployeeService.Supplier SupplierField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
         private System.Nullable<int> SupplierIDField;
@@ -1427,7 +1427,7 @@ namespace Client.EmployeeServiceClient {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public Client.EmployeeServiceClient.Category Category {
+        public Client.EmployeeService.Category Category {
             get {
                 return this.CategoryField;
             }
@@ -1466,7 +1466,7 @@ namespace Client.EmployeeServiceClient {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Collections.Generic.List<Client.EmployeeServiceClient.OrderDetail> OrderDetails {
+        public System.Collections.Generic.List<Client.EmployeeService.OrderDetail> OrderDetails {
             get {
                 return this.OrderDetailsField;
             }
@@ -1531,7 +1531,7 @@ namespace Client.EmployeeServiceClient {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public Client.EmployeeServiceClient.Supplier Supplier {
+        public Client.EmployeeService.Supplier Supplier {
             get {
                 return this.SupplierField;
             }
@@ -1627,7 +1627,7 @@ namespace Client.EmployeeServiceClient {
         private byte[] PictureField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private System.Collections.Generic.List<Client.EmployeeServiceClient.Product> ProductsField;
+        private System.Collections.Generic.List<Client.EmployeeService.Product> ProductsField;
         
         [global::System.ComponentModel.BrowsableAttribute(false)]
         public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
@@ -1692,7 +1692,7 @@ namespace Client.EmployeeServiceClient {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Collections.Generic.List<Client.EmployeeServiceClient.Product> Products {
+        public System.Collections.Generic.List<Client.EmployeeService.Product> Products {
             get {
                 return this.ProductsField;
             }
@@ -1754,7 +1754,7 @@ namespace Client.EmployeeServiceClient {
         private string PostalCodeField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private System.Collections.Generic.List<Client.EmployeeServiceClient.Product> ProductsField;
+        private System.Collections.Generic.List<Client.EmployeeService.Product> ProductsField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
         private string RegionField;
@@ -1903,7 +1903,7 @@ namespace Client.EmployeeServiceClient {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Collections.Generic.List<Client.EmployeeServiceClient.Product> Products {
+        public System.Collections.Generic.List<Client.EmployeeService.Product> Products {
             get {
                 return this.ProductsField;
             }
@@ -1967,7 +1967,7 @@ namespace Client.EmployeeServiceClient {
         private int RegionIDField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private System.Collections.Generic.List<Client.EmployeeServiceClient.Territory> TerritoriesField;
+        private System.Collections.Generic.List<Client.EmployeeService.Territory> TerritoriesField;
         
         [global::System.ComponentModel.BrowsableAttribute(false)]
         public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
@@ -2006,7 +2006,7 @@ namespace Client.EmployeeServiceClient {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Collections.Generic.List<Client.EmployeeServiceClient.Territory> Territories {
+        public System.Collections.Generic.List<Client.EmployeeService.Territory> Territories {
             get {
                 return this.TerritoriesField;
             }
@@ -2029,29 +2029,29 @@ namespace Client.EmployeeServiceClient {
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="EmployeeServiceClient.IEmployeeService")]
+    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="EmployeeService.IEmployeeService")]
     public interface IEmployeeService {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IEmployeeService/GetEmployees", ReplyAction="http://tempuri.org/IEmployeeService/GetEmployeesResponse")]
-        System.Collections.Generic.List<Client.EmployeeServiceClient.Employee> GetEmployees();
+        System.Collections.Generic.List<Client.EmployeeService.Employee> GetEmployees();
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IEmployeeService/GetEmployees", ReplyAction="http://tempuri.org/IEmployeeService/GetEmployeesResponse")]
-        System.Threading.Tasks.Task<System.Collections.Generic.List<Client.EmployeeServiceClient.Employee>> GetEmployeesAsync();
+        System.Threading.Tasks.Task<System.Collections.Generic.List<Client.EmployeeService.Employee>> GetEmployeesAsync();
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IEmployeeService/GetEmployee", ReplyAction="http://tempuri.org/IEmployeeService/GetEmployeeResponse")]
-        Client.EmployeeServiceClient.Employee GetEmployee(int id);
+        Client.EmployeeService.Employee GetEmployee(int id);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IEmployeeService/GetEmployee", ReplyAction="http://tempuri.org/IEmployeeService/GetEmployeeResponse")]
-        System.Threading.Tasks.Task<Client.EmployeeServiceClient.Employee> GetEmployeeAsync(int id);
+        System.Threading.Tasks.Task<Client.EmployeeService.Employee> GetEmployeeAsync(int id);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface IEmployeeServiceChannel : Client.EmployeeServiceClient.IEmployeeService, System.ServiceModel.IClientChannel {
+    public interface IEmployeeServiceChannel : Client.EmployeeService.IEmployeeService, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class EmployeeServiceClient : System.ServiceModel.ClientBase<Client.EmployeeServiceClient.IEmployeeService>, Client.EmployeeServiceClient.IEmployeeService {
+    public partial class EmployeeServiceClient : System.ServiceModel.ClientBase<Client.EmployeeService.IEmployeeService>, Client.EmployeeService.IEmployeeService {
         
         public EmployeeServiceClient() {
         }
@@ -2072,19 +2072,19 @@ namespace Client.EmployeeServiceClient {
                 base(binding, remoteAddress) {
         }
         
-        public System.Collections.Generic.List<Client.EmployeeServiceClient.Employee> GetEmployees() {
+        public System.Collections.Generic.List<Client.EmployeeService.Employee> GetEmployees() {
             return base.Channel.GetEmployees();
         }
         
-        public System.Threading.Tasks.Task<System.Collections.Generic.List<Client.EmployeeServiceClient.Employee>> GetEmployeesAsync() {
+        public System.Threading.Tasks.Task<System.Collections.Generic.List<Client.EmployeeService.Employee>> GetEmployeesAsync() {
             return base.Channel.GetEmployeesAsync();
         }
         
-        public Client.EmployeeServiceClient.Employee GetEmployee(int id) {
+        public Client.EmployeeService.Employee GetEmployee(int id) {
             return base.Channel.GetEmployee(id);
         }
         
-        public System.Threading.Tasks.Task<Client.EmployeeServiceClient.Employee> GetEmployeeAsync(int id) {
+        public System.Threading.Tasks.Task<Client.EmployeeService.Employee> GetEmployeeAsync(int id) {
             return base.Channel.GetEmployeeAsync(id);
         }
     }

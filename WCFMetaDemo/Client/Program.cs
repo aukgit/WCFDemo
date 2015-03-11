@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Client.EmployeeServiceClient;
+using Client.EmployeeService;
 
 namespace Client {
     class Program {
@@ -18,16 +18,16 @@ namespace Client {
 
             Console.WriteLine("Press Enter to retrieve data from server to client.");
             Console.ReadLine();
-            EmployeeServiceClient.EmployeeServiceClient proxy = new EmployeeServiceClient.EmployeeServiceClient();
+            EmployeeServiceClient proxy = new EmployeeServiceClient();
             var employees = proxy.GetEmployees();
 
             Console.WriteLine("Printing employees from client application:");
             PrintEmployees(employees);
 
-            Console.WriteLine("Get Employee by Id(int):");
-            var id = int.Parse(Console.ReadLine());
-            var employee = proxy.GetEmployee(id);
-            Console.WriteLine(employee.FirstName + "[id : " + employee.EmployeeID + "]");
+            //Console.WriteLine("Get Employee by Id(int):");
+            //var id = int.Parse(Console.ReadLine());
+            //var employee = proxy.GetEmployee(id);
+            //Console.WriteLine(employee.FirstName + "[id : " + employee.EmployeeID + "]");
 
             Console.WriteLine("Enter to close.");
             Console.ReadLine();

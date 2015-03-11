@@ -7,10 +7,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+using System.Runtime.Serialization;
+
 namespace Server.DataArchitecture
 {
     using System;
     using System.Collections.Generic;
+    //[DataContract]
     public partial class Employee
     {
         public Employee()
@@ -19,7 +22,7 @@ namespace Server.DataArchitecture
             this.ProductOrders = new HashSet<ProductOrder>();
             this.Territories = new HashSet<Territory>();
         }
-    
+        //[DataMember] don't need this anymore
         public int EmployeeID { get; set; }
         public string LastName { get; set; }
         public string FirstName { get; set; }
