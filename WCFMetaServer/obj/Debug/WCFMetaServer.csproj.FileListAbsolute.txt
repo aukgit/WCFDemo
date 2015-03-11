@@ -1,0 +1,6 @@
+E:\Working\GitHub\WCFDemo\WCFMetaServer\bin\Debug\WCFMetaServer.exe.config
+E:\Working\GitHub\WCFDemo\WCFMetaServer\bin\Debug\WCFMetaServer.exe
+E:\Working\GitHub\WCFDemo\WCFMetaServer\bin\Debug\WCFMetaServer.pdb
+E:\Working\GitHub\WCFDemo\WCFMetaServer\obj\Debug\WCFMetaServer.csprojResolveAssemblyReference.cache
+E:\Working\GitHub\WCFDemo\WCFMetaServer\obj\Debug\WCFMetaServer.exe
+E:\Working\GitHub\WCFDemo\WCFMetaServer\obj\Debug\WCFMetaServer.pdb

@@ -1,0 +1,5 @@
+E:\Working\GitHub\WCFDemo\WCFMetaClient\bin\Debug\WCFMetaClient.exe.config
+E:\Working\GitHub\WCFDemo\WCFMetaClient\bin\Debug\WCFMetaClient.exe
+E:\Working\GitHub\WCFDemo\WCFMetaClient\bin\Debug\WCFMetaClient.pdb
+E:\Working\GitHub\WCFDemo\WCFMetaClient\obj\Debug\WCFMetaClient.exe
+E:\Working\GitHub\WCFDemo\WCFMetaClient\obj\Debug\WCFMetaClient.pdb
