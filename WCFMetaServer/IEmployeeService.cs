@@ -10,9 +10,9 @@ namespace WCFMetaServer {
     [ServiceContract]
     public interface IEmployeeService {
         [OperationContract]
-        List<string> GetEmployees();
+        List<Product> GetEmployees();
 
         [OperationContract]
-        string GetEmployee(int id);
+        Product GetEmployee(int id);
     }
 }
