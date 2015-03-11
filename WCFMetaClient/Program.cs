@@ -7,10 +7,10 @@ using WCFMetaClient.ServiceReference2;
 
 namespace WCFMetaClient {
     class Program {
-        static void PrintEmployees(List<Product> employees) {
+        static void PrintEmployees(List<string> employees) {
             int i = 0;
             foreach (var employee in employees) {
-                Console.WriteLine(++i + ". " + employee.ProductName);
+                Console.WriteLine(++i + ". " + employee);
             }
         }
         static void Main(string[] args) {
